@@ -1,0 +1,30 @@
+CRUD:
+
+Crud stands for Create, Read, Update and Delete.
+These are the four basic functions of persistent storage.
+
+SQL:
+
+Stands for Structured Query Language.  This is the most common
+language used to communicate with modern databases.
+
+Create:
+
+Use INSERT to create new rows in a table, e.g
+INSERT INTO "students" (NAME) VALUES ( 'Ben');
+Note = use single quotes when passing strings to rows.
+
+Read:
+
+SELECT is used for reading, e.g
+SELECT * FROM students;
+
+Update:
+
+UPDATE is used to change existing values, e.g
+UPDATE "students" SET NAME = 'Ben' WHERE ID = 1
+
+Delete:
+
+Use DELETE to remove from a table, e.g
+DELETE FROM "students" WHERE ID = 1;
